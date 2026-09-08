@@ -28,13 +28,16 @@ Supports **Dark Mode** & **Light Mode**.
 
 ---
 
+
 ## Screenshots
 
 | Light Mode | Dark Mode |
 |------------|-----------|
 | ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
 
+
 ---
+
 
 ## Installation
 
@@ -43,12 +46,18 @@ Supports **Dark Mode** & **Light Mode**.
 git clone https://github.com/your-username/laravel-livewire-user-management.git
 cd laravel-livewire-user-management
 
----
-##Create user
-1. **Create user 100**
-```
+## Create Users (Seeding)
+
+You can quickly generate test users using Tinker:
+
+### Create 100 Users
+```bash
 php artisan tinker
-> App\Models\User::factory()->count(100)->create();
+App\Models\User::factory()->count(100)->create();
+
+
+
+
 
 
 
