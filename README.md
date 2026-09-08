@@ -44,6 +44,7 @@ git clone https://github.com/your-username/laravel-livewire-user-management.git
 cd laravel-livewire-user-management
 
 
-## create user 100
+2. **Create user 100**
+```
 php artisan tinker
 > App\Models\User::factory()->count(100)->create();
