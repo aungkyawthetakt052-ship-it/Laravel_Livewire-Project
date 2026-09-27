@@ -46,6 +46,17 @@ Supports **Dark Mode** & **Light Mode**.
 git clone https://github.com/aungkyawthetakt052-ship-it/Laravel_Livewire-Project.git
 cd Laravel_Livewire-Project
 
+3.Environment setup
+
+ cp .env.example .env
+php artisan key:generate
+
+4.Configure database in .env
+
+envDB_DATABASE=laravel_db
+DB_USERNAME=root
+DB_PASSWORD=
+
 ## Create Users (Seeding)
 
 You can quickly generate test users using Tinker:
