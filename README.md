@@ -43,7 +43,7 @@ Supports **Dark Mode** & **Light Mode**.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/laravel-livewire-user-management.git
+git clone https://github.com/aungkyawthetakt052/laravel-livewire-user-management.git
 cd laravel-livewire-user-management
 
 ## Create Users (Seeding)
